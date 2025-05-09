@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         <div className="absolute top-0 z-[-1] opacity-30 lg:opacity-40">
           <img
-            src="/images/home/cover1.png"
+            src="/images/home/cover4.png"
             alt="shape"
             className="w-full"
           />
