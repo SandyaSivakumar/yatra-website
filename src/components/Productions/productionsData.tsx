@@ -20,10 +20,10 @@ const productionsData: Blog[] = [
     title: "Virasat 2024",
     paragraph:
       "Virasat is Yatra's flagship annual student showcase — a grand-scale showcase introduced in 2024 that drew a houseful audience in its debut edition. Conceived and directed by Aditya Sharma, Virasat celebrates the training, discipline, and artistic guidance offered at Yatra under his tutelage.",
-    image: "/images/blog/upcoming1.jpg",
+    image: "/images/productions/virasat.jpg",
     location: {
       name: "Indiranagar",
-      image: "/images/blog/upcoming1.jpg",
+      image: "/images/productions/virasat.jpg",
       designation: "",
     },
     tags: [],

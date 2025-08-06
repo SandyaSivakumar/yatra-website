@@ -16,7 +16,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Know more about Yatra Dance Productions, the founder and ensemble of artists."
       />
       <AboutSectionOne />
       <AboutSectionThree />
