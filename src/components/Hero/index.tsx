@@ -7,12 +7,11 @@ const Hero = () => {
         id="home"
         className="relative z-10 overflow-hidden bg-[linear-gradient(to_right,_black_60%,_#db0502)] pb-16 pt-[120px] dark:bg-[linear-gradient(to_right,_black_60%,_#db0502)] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
-        <div className="absolute left-0 top-0 bottom-0 w-4 bg-red-500 z-20 shadow-[0_0_10px_2px_rgba(239,68,68,0.7)]"></div>
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="max-w-[800px] text-left">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight transition duration-1000 ease-in">
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Yatra Dance Productions
                 </h1>
                 <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">

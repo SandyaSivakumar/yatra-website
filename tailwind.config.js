@@ -25,12 +25,21 @@ module.exports = {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
+        slideInFromLeft: {
+          '0%': { opacity: '0', transform: 'translateX(-100%)' }, // Start off-screen left
+          '100%': { opacity: '1', transform: 'translateX(0)' },   // End at original position
+        },
       },
       animation: {
         fadeInUp: 'fadeInUp 0.8s ease-out forwards',
         'fadeInUp-slow': 'fadeInUp 1s ease-out forwards',
         'fadeInUp-delay-200': 'fadeInUp 0.8s ease-out 200ms forwards',
         'fadeInUp-delay-400': 'fadeInUp 0.8s ease-out 400ms forwards',
+
+        slideInFromLeft: 'slideInFromLeft 0.8s ease-out forwards',
+        'slideInFromLeft-delay-200': 'slideInFromLeft 0.8s ease-out 200ms forwards',
+        'slideInFromLeft-delay-400': 'slideInFromLeft 0.8s ease-out 400ms forwards',
+        'slideInFromLeft-delay-600': 'slideInFromLeft 0.8s ease-out 600ms forwards',
       },
     },
   },
