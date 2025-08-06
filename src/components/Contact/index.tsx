@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
+          <div className="w-full px-4 lg:w-full xl:w-full">
             <div
               className="mb-12 rounded-xs bg-white px-8 py-11 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
               data-wow-delay=".15s
@@ -15,7 +15,7 @@ const Contact = () => {
                 Want to Join Us?
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Our support team will get back to you ASAP via email.
+                We will get back to you as soon as possible.
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
@@ -66,16 +66,13 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <button className="rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
+                    <button className="rounded-xs bg-red-500 px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-red-400 dark:shadow-submit-dark cursor-pointer">
                       Submit Ticket
                     </button>
                   </div>
                 </div>
               </form>
             </div>
-          </div>
-          <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
-            <NewsLatterBox />
           </div>
         </div>
       </div>
