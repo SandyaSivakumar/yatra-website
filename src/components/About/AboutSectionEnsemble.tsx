@@ -6,7 +6,7 @@ import Image from "next/image";
 const AboutSectionEnsemble = () => {
   return (
     <section
-      id="blog"
+      id="ensemble"
       className="py-16 md:py-16 lg:py-16 bg-[#000000]"
     >
       <div className="container">
